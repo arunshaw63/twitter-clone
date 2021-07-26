@@ -1,0 +1,42 @@
+.login {
+  position: absolute;
+  left: 37%;
+  top: 3%;
+}
+
+.login > .MuiSvgIcon-root {
+  font-size: 44px;
+  font-weight: 100 !important;
+  color: rgba(29, 161, 242, 1);
+}
+
+.login > h3 {
+  color: rgb(15, 20, 25);
+  font-size: 31px;
+  line-height: 36px;
+  font-weight: 700;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.login_form > input {
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 4px;
+  padding: 20px 100px;
+}
+
+.login_pass {
+  margin-top: 20px;
+}
+
+.login_button {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  padding: 8px 150px !important;
+}
